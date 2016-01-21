@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="Thumbnail" syncable="YES">
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="owningVideo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Video" inverseName="thumbnails" inverseEntity="Video" syncable="YES"/>
+    </entity>
+    <entity name="Video" syncable="YES">
+        <attribute name="extension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="framerate" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="keepOnDevice" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="length" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="linkToDownloadableCloudVideo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="linkToPlayableCloudVideo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="onDevice" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="recordingDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="typeOfRecording" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uploaded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="thumbnails" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Thumbnail" inverseName="owningVideo" inverseEntity="Thumbnail" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Video" positionX="-63" positionY="-18" width="128" height="223"/>
+        <element name="Thumbnail" positionX="205" positionY="96" width="128" height="75"/>
+    </elements>
+</model>

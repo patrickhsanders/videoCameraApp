@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAF235B81C528A6B003384E8 /* VideoPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF235B71C528A6B003384E8 /* VideoPreview.m */; };
 		AAFC661F1C51572000864E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC661E1C51572000864E14 /* main.m */; };
 		AAFC66221C51572000864E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC66211C51572000864E14 /* AppDelegate.m */; };
 		AAFC66281C51572000864E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFC66261C51572000864E14 /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAF235B61C528A6B003384E8 /* VideoPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPreview.h; sourceTree = "<group>"; };
+		AAF235B71C528A6B003384E8 /* VideoPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPreview.m; sourceTree = "<group>"; };
 		AAFC661A1C51572000864E14 /* VideoCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFC661E1C51572000864E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAFC66201C51572000864E14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				AAFC66661C5182FF00864E14 /* PlaybackViewController.m */,
 				AAFC666F1C51868D00864E14 /* VideoCollectionViewCell.h */,
 				AAFC66701C51868D00864E14 /* VideoCollectionViewCell.m */,
+				AAF235B61C528A6B003384E8 /* VideoPreview.h */,
+				AAF235B71C528A6B003384E8 /* VideoPreview.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 				AAFC666E1C51838800864E14 /* models.md in Sources */,
 				AAFC66361C51575D00864E14 /* Video.m in Sources */,
 				AAFC66221C51572000864E14 /* AppDelegate.m in Sources */,
+				AAF235B81C528A6B003384E8 /* VideoPreview.m in Sources */,
 				AAFC66601C5181B600864E14 /* VideosCollectionViewController.m in Sources */,
 				AAFC66641C5182D200864E14 /* RecordViewController.m in Sources */,
 				AAFC66711C51868D00864E14 /* VideoCollectionViewCell.m in Sources */,
@@ -392,6 +398,7 @@
 				AAFC66331C51572000864E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

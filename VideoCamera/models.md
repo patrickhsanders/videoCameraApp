@@ -14,7 +14,6 @@
 - shows the video preview image
 - shows the video preview image (animated) -- OPTIONAL
 
-
 ##Model 
 ###User
 - random hashed value in keychain, synchronized with iCloud.
